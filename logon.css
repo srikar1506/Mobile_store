@@ -1,0 +1,179 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.header{
+    background-color:green;
+    color:white;
+    border-color: black;
+    min-height:50px;
+    border: 1px solid transparent;
+    
+}
+.inner-header {
+    width: 80%;
+    margin: auto;
+    
+}
+.logo{
+     float:left;
+     color:white;
+     height:50px;
+     font-size:23px;
+     font-style:bold;
+     text-align:left;
+     padding:13px;
+        
+}
+.click{
+       float:right;
+       color:black;
+       font-weight:bold;
+       text-align:right;
+       padding:13px 15px;
+       font-size:17px
+}
+.table{
+height:80px;
+position:absolute;
+left:2px;
+}
+.sam1{
+position:absolute;
+top:300px;
+left:350px;
+}
+.ippro{
+position:absolute;
+top:280px;
+left:570px;
+}
+.onepro{
+position:absolute;
+top:280px;
+left:810px;
+}
+.red{
+position:absolute;
+top:350px;
+left:400px;
+}
+.redpro{
+position:absolute;
+top:180px;
+left:100px;
+}
+.opf21{
+position:absolute;
+top:535px;
+left:780px;
+}
+.samS22{
+position:absolute;
+top:280px;
+left:570px;
+}
+.sama32{
+position:absolute;
+top:280px;
+left:820px;
+}
+.pos{
+position:absolute;
+top:380px;
+left:280px
+}
+.samf62{
+position:absolute;
+top:220px;
+left:80px;
+}
+.pos1{
+position:absolute;
+top:350px;
+left:550px
+}
+.Sams10{
+position:absolute;
+top:250px;
+left:45px;
+}
+.pos2{
+position:absolute;
+top:400px;
+left:750px
+}
+.s22{
+position:absolute;
+top:200px;
+left:100px;
+}
+.ip13{
+position:absolute;
+top:280px;
+left:850px;
+}
+.i11{
+position:absolute;
+top:360px;
+left:780px
+}
+.i11pro{
+position:absolute;
+top:240px;
+left:60px;
+}
+.mi9{
+position:absolute;
+top:350px;
+left:800px
+}
+.mipro{
+position:absolute;
+top:250px;
+left:60px;
+}
+.op{
+position:absolute;
+top:300px;
+left:360px;
+}
+.op19
+{
+position:absolute;
+top:295px;
+left:590px;
+}
+.reno
+{
+position:absolute;
+top:290px;
+left:840px;
+}
+.f21{
+position:absolute;
+top:350px;
+left:780px;
+}
+.one7{
+position:absolute;
+top:280px;
+left:610px;
+}
+.one8{
+position:absolute;
+top:280px;
+left:860px;
+}
+.one10{
+position:absolute;
+top:370px;
+left:800px
+}
+.on10{
+position:absolute;
+top:230px;
+left:70px;
+}
+

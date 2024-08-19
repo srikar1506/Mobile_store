@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Choice</title>
+<link type="text/css" rel=stylesheet href="mycss.css">
+<script>
+    function validation(){  
+var fname=document.myform.fname.value;
+var lname=document.myform.lname.value;
+var email =document.myform.mail.value;
+var firstpassword=document.myform.password.value;  
+var secondpassword=document.myform.confirm.value;
+var regEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g;   
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}
+if (email == "" || !regEmail.test(email)) {
+    window.alert("Please enter a valid e-mail address.");
+    email.focus();
+    return false;
+    }
+if(firstpassword==secondpassword){  
+return true;  
+}  
+else{  
+alert("password must be same!");  
+return false;  
+}  
+}  
+
+</script>
+</head>
+<body>
+<div class="header">
+<div class="inner-header">
+<div class="logo">Your Choice</div>
+<a href="log.html">
+<button class="access">Login</button>
+</a>
+</div>
+</div>
+<div class="margin">
+<div class="h1">Don't have an account?..SignUp Here</div>
+<div class="h2">
+<form method="post" name="myform" onsubmit="return validation()">
+<input type="text" name="fname" placeholder="Firstname"><br><br>
+<input type="text" name="lname" placeholder="lastname"><br><br>
+<input type="number" name="phn" placeholder="phone number"><br><br>
+<input type="email" name="mail" placeholder="enter your email ID"><br><br>
+<input type="password" name="password" placeholder="Password"><br><br>
+<input type="password" name="confirm" placeholder="re-enter your password"><br><br></div>
+<center>
+<button class="button" onclick="validation()">Create Account</button>
+</center>
+</form>
+</div>
+</body>
+</html>
